@@ -46,7 +46,7 @@
 
   # Yerel Kurulum
   <pre><code># Repository'yi klonlayın
-git clone https://github.com/verigpt/verigpt.git
+git clone https://github.com/Veri-GPT/Veri-GPT
 cd verigpt
 
 # Bağımlılıkları yükleyin
