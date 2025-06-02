@@ -80,15 +80,14 @@ npm run dev</code></pre>
   <h2>💻 Geliştirici Kılavuzu</h2>
   <p>Proje yapısı aşağıdaki gibidir:</p>
   <pre><code>verigpt/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── App.tsx
-├── .env.example
-├── package.json
-└── README.html</code></pre>
+src/
+├── components/      # Yeniden kullanılabilir UI bileşenleri
+├── pages/           # Sayfa bileşenleri (routing)
+├── hooks/           # Özel React hook'ları
+├── lib/             # Yardımcı kütüphaneler
+├── integrations/    # Dış servis entegrasyonları
+└── types/           # TypeScript tür tanımları
+</code></pre>
   <p><code>.env</code> dosyasını <code>.env.local</code> olarak kopyalayıp gerekli API anahtarlarını girin.</p>
 
   <hr />
