@@ -78,7 +78,7 @@ npm run dev</code></pre>
   </p>
 
   <pre><code class="language-ts">
-const model = genAI.getGenerativeModel({ model: "gemini-pro", apiKey: "YOUR API KEY" });
+  localStorage.setItem('geminiApiKey', 'YOU APİ KEY');
   </code></pre>
 
   <p>
