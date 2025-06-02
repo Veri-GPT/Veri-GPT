@@ -85,7 +85,6 @@ src/
 ├── pages/           # Sayfa bileşenleri (routing)
 ├── hooks/           # Özel React hook'ları
 ├── lib/             # Yardımcı kütüphaneler
-├── integrations/    # Dış servis entegrasyonları
 └── types/           # TypeScript tür tanımları
 </code></pre>
   <p><code>.env</code> dosyasını <code>.env.local</code> olarak kopyalayıp gerekli API anahtarlarını girin.</p>
