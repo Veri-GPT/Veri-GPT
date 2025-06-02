@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VeriGPT Dokümantasyonu</title>
-  <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 2rem; background-color: #fafafa; color: #333; line-height: 1.6; }
-    h1, h2, h3 { color: #2c3e50; }
-    pre, code { background-color: #f4f4f4; padding: 0.5rem; border-radius: 5px; display: block; overflow-x: auto; }
-    ul { margin-left: 1.5rem; }
-    a { color: #0077cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    hr { margin: 2rem 0; }
-  </style>
+
 </head>
 <body>
 
@@ -58,7 +44,7 @@
     <li>Önizleme sonrası sohbet veya grafik bölümüne geçin.</li>
   </ol>
 
-  <h3>🖥️ Yerel Kurulum</h3>
+  # Yerel Kurulum
   <pre><code># Repository'yi klonlayın
 git clone https://github.com/verigpt/verigpt.git
 cd verigpt
@@ -139,8 +125,8 @@ npm run dev</code></pre>
   <hr />
 
   <h2>📬 İletişim</h2>
-  <p>Destek ve öneriler için: <a href="mailto:destek@verigpt.com">destek@verigpt.com</a></p>
-  <p>Proje Sahibi: <strong>VeriGPT Ekibi</strong></p>
+  <p>Destek ve öneriler için: <a href="mailto:irfansemihdogru@outlook.com">irfansemihdogru@outlook.com</a></p>
+  <p>Proje Sahibi: <strong>İrfan Semih Doğru</strong></p>
 
 </body>
 </html>
