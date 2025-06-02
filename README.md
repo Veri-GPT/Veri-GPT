@@ -58,6 +58,35 @@ npm run dev</code></pre>
 
   <hr />
 
+  <section id="api-integration">
+  <h2>🔌 API Entegrasyonu (Gemini AI)</h2>
+  <p>
+    <strong>VeriGPT</strong>, yapay zeka destekli veri analizi için
+    <a href="https://ai.google.dev/" target="_blank">Gemini API</a> kullanmaktadır. Sistemi çalıştırabilmek için API anahtarınızı projenize entegre etmeniz gerekmektedir.
+  </p>
+
+  <h3>1. Gemini API Anahtarını Alın</h3>
+  <p>
+    Google AI platformu üzerinden ücretsiz şekilde Gemini API anahtarınızı alabilirsiniz: <br />
+    👉 <a href="https://makersuite.google.com/app/apikey" target="_blank">https://makersuite.google.com/app/apikey</a>
+  </p>
+
+  <h3>2. API Anahtarınızı Projeye Ekleyin</h3>
+  <p>
+    Anahtarınızı aldıktan sonra, proje dizininde yer alan <code>src/main.tsx</code> dosyasını açın ve 
+    <strong>14. satırdaki</strong> <code>"YOUR API KEY"</code> ifadesinin yerine kendi anahtarınızı yapıştırın:
+  </p>
+
+  <pre><code class="language-ts">
+const model = genAI.getGenerativeModel({ model: "gemini-pro", apiKey: "YOUR API KEY" });
+  </code></pre>
+
+  <p>
+    ✔️ Artık VeriGPT yapay zeka destekli analiz için hazır!
+  </p>
+</section>
+
+
   <h2>🔧 Sistem Gereksinimleri</h2>
   <ul>
     <li><strong>Node.js:</strong> 16.x veya üzeri</li>
