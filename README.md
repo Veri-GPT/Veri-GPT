@@ -1,20 +1,146 @@
-</head> <body> <h1>📊 VeriGPT</h1> <p><strong>VeriGPT</strong>, kullanıcıların veri setlerini yükleyerek doğal dilde sorular sormasına ve görsel analizler elde etmesine olanak tanıyan bir platformdur.</p> <div class="section"> <h2>🚀 Özellikler</h2> <ul> <li><strong>Doğal Dil İşleme:</strong> Karmaşık sorguları bile doğal dilde anlayarak analiz eder.</li> <li><strong>Çeşitli Veri Formatları Desteği:</strong> CSV, Excel  formatlarını destekler.</li> <li><strong>Görsel Raporlama:</strong> Otomatik olarak grafikler ve tablolar oluşturur.</li> <li><strong>Kullanıcı Dostu Arayüz:</strong> Basit ve sezgisel tasarımıyla kolay kullanım sağlar.</li> </ul> </div> <div class="section"> <h2>🛠️ Kurulum</h2> <h3>Gereksinimler</h3> <ul> <li>Node.js (v18.14.0 veya üzeri)</li> <li>npm</li> <li>Git</li> </ul>
-php-template
-Kopyala
-Düzenle
-<h3>Adımlar</h3>
-<ol>
-  <li>Projeyi klonlayın:
-    <pre><code>git clone https://github.com/kullaniciadi/verigpt.git
-cd verigpt</code></pre>
-</li>
-<li>Bağımlılıkları yükleyin:
-<pre><code>npm install</code></pre>
-</li>
-<li>Geliştirme sunucusunu başlatın:
-<pre><code>npm run dev</code></pre>
-</li>
-<li>Tarayıcınızda <code>http://localhost:3000</code> adresini ziyaret edin.</li>
-</ol>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VeriGPT Dokümantasyonu</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 2rem; background-color: #fafafa; color: #333; line-height: 1.6; }
+    h1, h2, h3 { color: #2c3e50; }
+    pre, code { background-color: #f4f4f4; padding: 0.5rem; border-radius: 5px; display: block; overflow-x: auto; }
+    ul { margin-left: 1.5rem; }
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { margin: 2rem 0; }
+  </style>
+</head>
+<body>
 
-</div> <div class="section"> <h2>📦 Yapılandırma</h2> <p>Proje, aşağıdaki klasör yapısına sahiptir:</p> <pre><code>verigpt/ ├── public/ ├── src/ │ ├── components/ │ ├── pages/ │ ├── services/ │ └── App.js ├── .env ├── package.json └── README.html</code></pre> <p><code>.env</code> dosyasında gerekli ortam değişkenlerini tanımlayabilirsiniz.</p> </div> <div class="section"> <h2>💡 Kullanım</h2> <ol> <li>Veri setinizi yükleyin (CSV, Excel veya JSON formatında).</li> <li>"Soru Sor" alanına doğal dilde sorularınızı yazın.</li> <li>Platform, sorunuza yanıt olarak grafikler ve tablolar oluşturacaktır.</li> </ol> </div> <div class="section"> <h2>📄 Lisans</h2> <p>Bu proje <strong>MIT Lisansı</strong> ile lisanslanmıştır. Daha fazla bilgi için <code>LICENSE</code> dosyasını inceleyebilirsiniz.</p> </div> <div class="section"> <h2>📞 İletişim</h2> <p>Herhangi bir sorunla karşılaşırsanız veya önerileriniz varsa, lütfen <a href="mailto:destek@verigpt.com">destek@verigpt.com</a> adresinden bizimle iletişime geçin.</p> </div> </body> </html>:contentReference[oaicite:19]{index=19}
+  <h1>📊 VeriGPT Dokümantasyonu</h1>
+  <p><strong>VeriGPT</strong>, CSV ve Excel verilerini analiz etmek, görselleştirmek ve anlamlandırmak için tasarlanmış açık kaynaklı bir yapay zeka platformudur.</p>
+  <p><strong>Son Güncelleme:</strong> Haziran 2025 &nbsp;|&nbsp; <strong>Sürüm:</strong> v1.0.0</p>
+
+  <hr />
+
+  <h2>📌 VeriGPT Nedir?</h2>
+  <p>
+    VeriGPT, veri analizi sürecini sadeleştiren açık kaynaklı bir <strong>yapay zeka</strong> uygulamasıdır.
+    Kullanıcılar veri dosyalarını (CSV, Excel) yükleyerek verileri yapay zeka ile analiz edebilir ve otomatik grafiklerle görselleştirebilir.
+  </p>
+  <p>
+    <strong>Gemini AI</strong> motoru sayesinde doğal dilde sorularla veri hakkında içgörüler elde etmek mümkündür.
+  </p>
+
+  <h3>📁 Desteklenen Dosya Türleri</h3>
+  <ul>
+    <li>CSV (.csv)</li>
+    <li>Microsoft Excel (.xlsx, .xls)</li>
+  </ul>
+
+  <hr />
+
+  <h2>✨ Temel Özellikler</h2>
+  <ul>
+    <li><strong>Veri Yükleme ve Önizleme:</strong> Sürükle-bırak ile kolay yükleme, akıllı sütun tanıma, önizleme.</li>
+    <li><strong>Yapay Zeka Destekli Sohbet:</strong> Verilere doğal dil ile soru sorabilme.</li>
+    <li><strong>Otomatik Görselleştirme:</strong> Çizgi, çubuk, pasta ve dağılım grafiklerini otomatik oluşturma ve özelleştirme.</li>
+    <li><strong>Tarayıcıda Çalışma:</strong> Tüm analizler kullanıcı cihazında gerçekleştirilir; veri gizliliği korunur.</li>
+  </ul>
+
+  <hr />
+
+  <h2>🚀 Hızlı Başlangıç</h2>
+
+  <h3>🌐 Web Üzerinden Kullanım</h3>
+  <ol>
+    <li>Ana sayfada <strong>"Hemen Deneyin"</strong> butonuna tıklayın.</li>
+    <li>CSV/Excel dosyanızı yükleyin.</li>
+    <li>Önizleme sonrası sohbet veya grafik bölümüne geçin.</li>
+  </ol>
+
+  <h3>🖥️ Yerel Kurulum</h3>
+  <pre><code># Repository'yi klonlayın
+git clone https://github.com/verigpt/verigpt.git
+cd verigpt
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Uygulamayı başlatın
+npm run dev</code></pre>
+  <p><strong>Not:</strong> Uygulama <code>http://localhost:5173</code> adresinde çalışacaktır.</p>
+
+  <hr />
+
+  <h2>🔧 Sistem Gereksinimleri</h2>
+  <ul>
+    <li><strong>Node.js:</strong> 16.x veya üzeri</li>
+    <li><strong>npm:</strong> 8.x veya yarn 1.22.x</li>
+    <li><strong>Web tarayıcısı:</strong> Chrome, Firefox, Safari, Edge</li>
+  </ul>
+
+  <hr />
+
+  <h2>🧠 Teknoloji Yığını (Tech Stack)</h2>
+  <ul>
+    <li><strong>Frontend:</strong> React 18, TypeScript, Vite</li>
+    <li><strong>UI:</strong> Tailwind CSS, shadcn/ui</li>
+    <li><strong>AI:</strong> Gemini API (natural language processing)</li>
+    <li><strong>Ekstra:</strong> CSV/Excel Parser, Chart.js</li>
+  </ul>
+
+  <hr />
+
+  <h2>💻 Geliştirici Kılavuzu</h2>
+  <p>Proje yapısı aşağıdaki gibidir:</p>
+  <pre><code>verigpt/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── App.tsx
+├── .env.example
+├── package.json
+└── README.html</code></pre>
+  <p><code>.env</code> dosyasını <code>.env.local</code> olarak kopyalayıp gerekli API anahtarlarını girin.</p>
+
+  <hr />
+
+  <h2>🤝 Katkıda Bulunma</h2>
+  <ol>
+    <li>Repository'yi fork edin</li>
+    <li>Yeni bir branch oluşturun (<code>git checkout -b yeni-ozellik</code>)</li>
+    <li>Değişikliklerinizi yapın ve commitleyin</li>
+    <li>Pull request gönderin</li>
+  </ol>
+
+  <hr />
+
+  <h2>📚 Sıkça Sorulan Sorular (SSS)</h2>
+  <h4>VeriGPT ücretsiz mi?</h4>
+  <p>Evet, tamamen açık kaynaklı ve ücretsizdir. MIT lisansı altındadır.</p>
+
+  <h4>Ne kadar büyük veri yükleyebilirim?</h4>
+  <p>Web sürümünde maksimum 10MB dosya yüklenebilir. Daha büyük veriler için yerel kurulum önerilir.</p>
+
+  <h4>Verilerim güvenli mi?</h4>
+  <p>Evet. Tüm analiz işlemleri tarayıcınızda yapılır, veriler sunucuya gönderilmez veya saklanmaz.</p>
+
+  <h4>Kendi projemde kullanabilir miyim?</h4>
+  <p>Evet. Eğitim ve araştırma amaçlı kullanabilirsiniz. Ticari kullanım için lisans koşullarına bakınız.</p>
+
+  <hr />
+
+  <h2>🪪 Lisans</h2>
+  <p>Bu proje <strong>MIT Lisansı</strong> altında sunulmaktadır. Detaylar için <code>LICENSE</code> dosyasına göz atabilirsiniz.</p>
+  <p><strong>⚠️ Not:</strong> Yalnızca eğitim ve araştırma amaçlı kullanım içindir. Ticari kullanım yasaktır.</p>
+
+  <hr />
+
+  <h2>📬 İletişim</h2>
+  <p>Destek ve öneriler için: <a href="mailto:destek@verigpt.com">destek@verigpt.com</a></p>
+  <p>Proje Sahibi: <strong>VeriGPT Ekibi</strong></p>
+
+</body>
+</html>
