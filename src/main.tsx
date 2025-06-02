@@ -11,7 +11,7 @@ import './index.css'
 // Gemini API anahtarını ayarla (eğer .env dosyasında yoksa)
 if (!localStorage.getItem('geminiApiKey') && !import.meta.env.VITE_GEMINI_API_KEY) {
   // Geliştirme için varsayılan anahtar
-  localStorage.setItem('geminiApiKey', 'AIzaSyBmfqWbslCpP0Yoj_n0hxVsUiuOybwiZ_Q');
+  localStorage.setItem('geminiApiKey', 'YOU APİ KEY');
 }
 
 // React uygulamasını başlat
