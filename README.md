@@ -116,7 +116,6 @@ src/
 ├── lib/             # Yardımcı kütüphaneler
 └── types/           # TypeScript tür tanımları
 </code></pre>
-  <p><code>.env</code> dosyasını <code>.env.local</code> olarak kopyalayıp gerekli API anahtarlarını girin.</p>
 
   <hr />
 
