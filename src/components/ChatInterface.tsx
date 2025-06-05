@@ -90,7 +90,7 @@ export function ChatInterface({ fileName, isDataLoaded, fileData }: ChatInterfac
    * Önce ortam değişkenlerinden, sonra localStorage'dan kontrol eder
    */
   const getApiKey = (): string => {
-    return import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyBmfqWbslCpP0Yoj_n0hxVsUiuOybwiZ_Q";
+       return import.meta.env.VITE_GEMINI_API_KEY;
   };
 
   /**
