@@ -73,12 +73,12 @@ npm run dev</code></pre>
 
   <h3>2. API Anahtarınızı Projeye Ekleyin</h3>
   <p>
-    Anahtarınızı aldıktan sonra, proje dizininde yer alan <code>src/main.tsx</code> dosyasını açın ve 
-    <strong>14. satırdaki</strong> <code>"YOUR API KEY"</code> ifadesinin yerine kendi anahtarınızı yapıştırın:
+    Anahtarınızı aldıktan sonra, proje dizininde yer alan <code>.env</code> dosyasını açın ve 
+    <strong>1. satırdaki</strong> <code>"YOUR API KEY"</code> ifadesinin yerine kendi anahtarınızı yapıştırın:
   </p>
 
   <pre><code class="language-ts">
-  localStorage.setItem('geminiApiKey', 'YOU APİ KEY');
+  VITE_GEMINI_API_KEY=YOUR API KEY
   </code></pre>
 
   <p>
