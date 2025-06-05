@@ -54,7 +54,7 @@ npm install
 
 # Uygulamayı başlatın
 npm run dev</code></pre>
-  <p><strong>Not:</strong> Uygulama <code>http://localhost:5173</code> adresinde çalışacaktır.</p>
+  <p><strong>Not:</strong> Uygulama <code>http://localhost:8080/</code> adresinde çalışacaktır.</p>
 
   <hr />
 
